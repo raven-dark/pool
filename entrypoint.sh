@@ -4,7 +4,7 @@
 ravendarkd -daemon -conf=/root/.ravendarkconf/ravendark.conf
 sleep 15
 # import private key to wallet
-ravendark-cli -rpcuser=user -rpcpass=pass -rpcport=6665 importprivkey "pool-priv-key" "" false
+ravendark-cli --conf=/root/.ravendarkconf/ravendark.conf importprivkey "pool-priv-key" "" false
 # start redis
 /etc/init.d/redis_6379 start
 sleep 15
