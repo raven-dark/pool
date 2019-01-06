@@ -14,6 +14,8 @@ build container
 
 `cd pool`
 
+EDIT YOUR CONFIGS. update passwords and public/private keys.
+
 `sudo docker build -t pool/xrd .`
 
 run pool container
