@@ -1,0 +1,10 @@
+{
+    "name": "RavenDark",
+    "symbol": "XRD",
+    "algorithm": "x16r",
+    "peerMagic": "b1a6d7de",
+    "explorerGetBlockJSON": "http://explorer.raven-dark.com/api/block/",
+    "explorerGetBlock": "http://explorer.raven-dark.com/api/rawblock/",
+    "explorerGetTX": "http://explorer.raven-dark.com/api/tx/{0}",
+    "blockTime": 60
+}
