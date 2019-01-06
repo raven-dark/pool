@@ -63,6 +63,9 @@ RUN wget -qO- https://github.com/raven-dark/bins/raw/master/raven-dark-0.2.0-ubu
 RUN chmod +x /ravendark/ravendarkd
 RUN chmod +x /ravendark/ravendark-cli
 
+RUN ln -sf /ravendark/ravendarkd /usr/bin/ravendarkd
+RUN ln -sf /ravendark/ravendark-cli /usr/bin/ravendark-cli
+
 #wallet daemon config
 COPY wallet_config_xrd.conf ./root/.ravendarkconf/ravendark.conf
 
