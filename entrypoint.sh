@@ -8,7 +8,7 @@ ravendark-cli --conf=/root/.ravendarkconf/ravendark.conf importprivkey "pool-pri
 # start redis
 rm -f /var/run/redis_6379.pid
 /etc/init.d/redis_6379 start
-sleep 15
+sleep 90
 # start mining pool
 pm2 start node -- init.js
 
