@@ -20,7 +20,7 @@ EDIT YOUR CONFIGS. update passwords and public/private keys.
 
 run pool container
 
-`sudo docker run -p 80:80 -p 6666:6666 -p 3030:3030 -v ~/data:/root/.ravendarkcore -d --name xrd pool/xrd:latest`
+`sudo docker run -p 80:8080 -p 6666:6666 -p 3030:3030 -v ~/data:/root/.ravendarkcore -d --name xrd pool/xrd:latest`
 
 to get into container, if needed
 
