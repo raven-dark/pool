@@ -58,7 +58,7 @@ RUN git clone https://github.com/j4ys0n/BootNOMP.git nomp && \
 
 RUN mkdir /ravendark
 
-RUN wget -qO- https://github.com/raven-dark/raven-dark/releases/download/0.3.0/ravendark-0.3.0-ubuntu-14.04.tar.gz | tar xvz -C /ravendark
+RUN wget -qO- https://github.com/raven-dark/raven-dark/releases/download/0.3.1/ravendark-0.3.1-ubuntu-14.04.tar.gz | tar xvz -C /ravendark
 
 RUN chmod +x /ravendark/ravendarkd
 RUN chmod +x /ravendark/ravendark-cli
