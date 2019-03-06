@@ -20,7 +20,7 @@
             "diff": 8,
             "varDiff": {
                 "minDiff": 8,
-                "maxDiff": 512,
+                "maxDiff": 5120,
                 "targetTime": 15,
                 "retargetTime": 90,
                 "variancePercent": 30
